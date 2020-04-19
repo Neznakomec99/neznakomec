@@ -1,0 +1,5 @@
+$('.carousel-wrapper').css('background-image', 'url('+$('#carousel .slick-current .preview img').attr('src')+')');
+
+$('#carousel').on('afterChange', function(){
+	$('.carousel-wrapper').css('background-image', 'url('+$('#carousel .slick-current .preview img').attr('src')+')');
+});
