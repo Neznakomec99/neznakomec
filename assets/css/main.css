@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6{
 .vindler{
 	background: url(../img/rectangle-back2.png) 100% 78% no-repeat, url(../img/rectangle-back3.png) 0 100% no-repeat, url(../img/rectangle-back1.png) 125% 0 no-repeat;
 }
+.slick img{height:100%;}
 #menuToggle
 {
   display: block;
