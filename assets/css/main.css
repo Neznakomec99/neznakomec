@@ -251,7 +251,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: -0.5px;
 }
 .job_preview-wrapper{
-    padding: 16px 51px 24px 44px;
+    padding: 16px 35px 24px 45px;
     background-color: #fff;
 }
 .slick-dotted.slick-slider{
@@ -289,7 +289,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .job_preview-wrapper:hover .preview_info{
 	color: black;
-	font-weight: 900;
+	font-weight: 600;
 }
 .slick-slide{
     margin: 0 17.5px;
@@ -531,7 +531,7 @@ text-decoration: none;
 	.team-info p{font-size: 22px;}
 	#carousel-team{margin-top: 44px;}
 	#carousel-team .slick-list {padding: 0 20% 0 0!important;}
-	.slick-slide img{width: 82%;}
+	#carousel-team .slick-slide img{width: 82%;}
 	.team_preview-wrapper{margin-left: 64px;margin-right: 20px;}
 	.team_preview-wrapper:after{right: 65px;}
 	.team_preview-wrapper:before, .team_preview-wrapper:after{top: 165px;font-size: 103px;}
