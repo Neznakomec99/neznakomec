@@ -312,6 +312,7 @@ display: block;
 }
 .preview_info>div{
 	display: inline-flex;
+	display: -webkit-inline-box;
 	flex-basis:50%;
 	margin-bottom: 14px;
 	font-size: 13px;
