@@ -533,7 +533,6 @@ text-decoration: none;
 .header__side_right .dropdown-toggle{margin: 0!important;}
 .slick-next{right: -15px!important;}
 .slick-prev{left: -15px!important;}
-.preview_info{margin: 0 auto;width: 100%;}
 .see_profile{top: 27%!important;left: 33%!important;}
 #menuToggle{top: 80px!important;}
 .preview_info>div{font-size: 16px!important;}
@@ -541,6 +540,7 @@ text-decoration: none;
 @media(max-width: 375px) {
 .see_profile{top: 33%!important;left: 28%!important;}
 }
+@media(max-width: 480px) {#menuToggle input:checked ~ #menu{width: 65%;transform: translate(-75%, 0);}}
 @media only screen and (max-width: 768px) {
 	#carousel .slick-list{padding:0 14% 0 0!important;margin:0!important;}
 	.header__logo{margin-left: 26px;margin-top: -10px;}
